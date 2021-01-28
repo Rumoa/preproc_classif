@@ -205,7 +205,8 @@ data.frame(att.scores) %>% arrange(desc(attr_importance))
 #Si el lector desea comprobar los resultados sin tener que ejecutar todos los algoritmos (pueden tardar varias
 #horas), recomendamos acceder a este repositorio donde se pueden encontrar los archivos:
 
-#
+
+# https://github.com/Rumoa/preproc_classif
 
 #No recomendamos ejecutar todos los comandos ya que se puede demorar la espera.
 

@@ -890,5 +890,6 @@ grid.results.test %>% arrange(desc(F1))
 #subiré las 20 originales más 4 de grid, en una nueva cuenta para que se vea la evolución y la clasificación 
 #final 
 
+#repositorio: https://github.com/Rumoa/preproc_classif/
 #cuenta original: https://www.drivendata.org/users/toni
 #nueva cuenta: https://www.drivendata.org/users/toni_ruiz/

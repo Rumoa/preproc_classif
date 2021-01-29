@@ -681,7 +681,7 @@ ggplot(cv.results.molten, aes( x = Data, y = value, fill = variable ) ) +
   labs(x = "Data", y = "F1 score", title = "F1 score using 5-fold cross validation using training set \nfor different methods and data" ,
        fill = "Method")
 
-#ggsave("cv.comparison.png", width = 10, height = 10)
+#ggsave("cv.comparison.2.png", width = 5, height = 10)
 
 ###################################################################
 #Creación de modelos con J48.
@@ -785,7 +785,7 @@ ggplot(df.test.results.molten, aes( x = Method, y = value, fill = variable ) ) +
   labs(x = "Data", y = "F1 score", title = "F1 score with test set from Driven Data \nfor different methods and data" ,
        fill = "Method")
 
-# ggsave("comparison.pdf", width = 10, height = 7)
+#ggsave("comparison.2.png", width = 5, height = 6)
 
 
 #También podemos ver los resultados de forma descendente en score obtenido:
@@ -868,7 +868,7 @@ ggplot(data = grid.results.test, aes(x = C, y = F1)) + geom_point(stat ="identit
         subtitle = "damage_grade~. - count_families -plan_configuration",
         xlab = "Nivel de confianza C")
 
-#ggsave("grid.comparison.pdf", width = 7, height = 7)
+#ggsave("grid.comparison.2.png", width = 5, height = 6)
 
 grid.results.test %>% arrange(desc(F1))
 

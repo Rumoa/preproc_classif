@@ -120,34 +120,20 @@ for (i in 1:length(a)){
 }
 
 #Podemos extraer la siguiente información:
-#Foundation type 
+#Foundation type: en las clases 2 y 3, la gran mayoría está en r, mientras que en la 1 está más repartida
+#other floor type: en las clases 2 y 3, la gran mayoría es q, mientras que en 1 la mayoría es j
+#roof type tiene en las clases 2 y 3 un mayor porcentaje n, que en la clase 1.
+#Ground floor type: en las clases 2 y 3 la mayoría es f y en la 1 se reparte más.
+#Position: tiene la mayoría s en las tres clases
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#En cuento a los materiales, las que más sufren daño (dmg 3), un 74% son las de mortar stone, mientras
+#que en dmg1 son un 26% solo
+#En cuanto al uso secundario: la mayoría no lo tienen, pero las que sí:
+#* los que menos daño tienen son los hoteles
+#* y damage 2 y 3 las destinadas a la agricultura
+#
+#En las edades también hay desbalanceo, ya que las que tiene menos daño tienen poca edad
+#mientras que las que sufren más daño, alrededor de un 15% para dmg2 y dmg3 tienen 15 años.
 
 
 
